@@ -1,0 +1,9 @@
+# Ignore this files
+
+.git
+.gitignore
+README.md
+.directory
+Dockerfile
+docker-compose.yml
+/mongo-seed/*

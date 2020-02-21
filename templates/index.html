@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>How old is my dog?</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="/static/images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+	<div class="contact1">
+		<div class="container-contact1">
+			<div class="contact1-pic js-tilt" data-tilt>
+				<img src="/static/images/img-paw1.png" alt="IMG">
+			</div>
+
+			<form class="contact1-form validate-form" action="/api/calc_hoimd" method="POST">
+				<span class="contact1-form-title">
+					Qual é a idade humana do meu cachorro?
+				</span>
+
+				<div class="wrap-input1 validate-input">
+					<input class="input1" type="text" name="dog_breed" id="dog_breed" placeholder="Raça? (Akita, Lhasa apso, SRD...)" required>
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input">
+					<input class="input1" type="number" name="dog_age" placeholder="Idade Canina? (1, 5, 10...)" required>
+					<span class="shadow-input1"></span>
+				</div>
+
+				<div class="wrap-input1 validate-input" id="dog_size" style="display:none;">
+					<input class="input1" list="sizes" name="dog_size" placeholder="Porte?">
+					<datalist id="sizes"> 
+						<option value="Pequeno">
+						<option value="Médio">
+						<option value="Grande">
+					</datalist>
+					<span class="shadow-input1"></span>
+				</div>
+				<div class="container-contact1-form-btn" >
+					<button class="contact1-form-btn" type="submit" value="Submit">
+						<span>
+							Vamos lá!
+							<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+
+<!--===============================================================================================-->
+	<script src="/static/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/vendor/bootstrap/js/popper.js"></script>
+	<script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+<!--===============================================================================================-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>‌
+	<script src="/static/js/main.js"></script>
+	<script src="/static/js/show_size.js"></script>
+
+</body>
+</html>
