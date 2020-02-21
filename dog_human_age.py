@@ -7,14 +7,6 @@ client = MongoClient('mongo', 27017)
 db = client['dogs_db']
 coll_raca = db['racas']
 
-# with open('dogs_db.json') as j:
-#     file_data = json.load(j)
-
-# # Creating DB, Collections and inserting documents
-# coll_raca.insert_many(file_data)
-
-# client.close()
-
 def get_human_age(dog_breed, dog_age, dog_size):
 
     id_c = int(dog_age)
@@ -27,9 +19,6 @@ def get_human_age(dog_breed, dog_age, dog_size):
                 [72, 78, 88], [76, 83 ,93],
                 [80, 87, 120]]
     
-    #dog_breed = dog_breed.upper()
-    #print(dog_breed)
-    #myquery = {'raca':dog_breed}
     mydict=coll_raca.find({'$text': {'$search': "\"%s\"" % (dog_breed)}})
     
     for x in mydict:
