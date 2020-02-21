@@ -4,7 +4,9 @@ $('#dog_breed').on('change',function(){
     $(this).val().toLowerCase()==="dobermann" || 
     $(this).val().toLowerCase()==="poodle" || 
     $(this).val().toLowerCase()==="schnauzer" || 
-    $(this).val().toLowerCase()==="srd")
+    $(this).val().toLowerCase()==="srd" ||
+    $(this).val().toLowerCase()==="vira-lata" ||
+    $(this).val().toLowerCase()==="vira lata")
     {
     $("#dog_size").show()
     }
