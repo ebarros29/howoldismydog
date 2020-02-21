@@ -13,7 +13,7 @@ def index():
 @app.route('/api/calc_hoimd', methods=['GET', 'POST'])
 def hoimd():
     if request.method == 'POST':
-        # Then get the data from the form
+    # Then get the data from the form
         d_breed = request.form['dog_breed']
         d_age = request.form['dog_age']
         d_size = request.form['dog_size']
