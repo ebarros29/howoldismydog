@@ -1,14 +1,10 @@
-# Use root/example as user/password credentials
 version: '3'
 
 services:    
 
     mongo:
         image: mongo
-        #volumes:
-        #    - ./dbfiles:/data/dbfiles
         restart: always
-        #command: mongoimport --db dogs_db --collection racas --file dogs_db.json --jsonArray
         ports:
             - 27017:27017
 
@@ -21,14 +17,6 @@ services:
         command:
             /mongo-seed/import.sh
 
-    # mongo-express:
-    #     image: mongo-express
-    #     restart: always
-    #     depends_on: 
-    #         - mongo
-    #     ports:
-    #         - 8081:8081
-    
     web-app:
         build: .
         ports:
