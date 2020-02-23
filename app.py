@@ -19,8 +19,11 @@ def hoimd():
         d_size = request.form['dog_size']
 
         response = dog_human_age.get_human_age(d_breed, d_age, d_size)
-        
-        return render_template('calc_hoimd.html', response=response)
+        #response = 'error'
+        if response != "error":
+            return render_template('calc_hoimd.html', response=response)
+        else:
+            return render_template('bnf.html')
 
     # Otherwise this was a normal GET request
     else:   
@@ -28,3 +31,4 @@ def hoimd():
     
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
+    #app.run(debug=True)
