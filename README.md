@@ -17,7 +17,7 @@ HTML5 + CSS + JavasScript
 
 Enjoy it!
 
-https://go.aws/32g6osz
+http://hoimd.hopto.org/
 
 
 ## Getting Started
