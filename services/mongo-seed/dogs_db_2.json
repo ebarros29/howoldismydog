@@ -1,0 +1,373 @@
+[
+  {
+    "_id": 0,
+    "raca": "Akita",
+    "porte": "Grande",
+    "origem": "Japão",
+    "personalidade": "leal, amigo e brincalhão"
+  },
+  {
+    "_id": 1,
+    "raca": "Basset Hound",
+    "porte": "Médio",
+    "origem": "Alemanha",
+    "personalidade": "paciente, teimoso e charmoso"
+  },
+  {
+    "_id": 2,
+    "raca": "Beagle",
+    "porte": "Pequeno",
+    "origem": "Grã-Bretanha",
+    "personalidade": "alegre, companheiro e aventureiro"
+  },
+  {
+    "_id": 3,
+    "raca": "Beagle",
+    "porte": "Médio",
+    "origem": "Grã-Bretanha",
+    "personalidade": "alegre, companheiro e aventureiro"
+  },
+  {
+    "_id": 4,
+    "raca": "Bichon Frisé",
+    "porte": "Pequeno",
+    "origem": "França",
+    "personalidade": "brincalhão, curioso e afetivo"
+  },
+  {
+    "_id": 5,
+    "raca": "Border Collie",
+    "porte": "Médio",
+    "origem": "Grã-Bretanha",
+    "personalidade": "inteligente, leal e cheio de energia"
+  },
+  {
+    "_id": 6,
+    "raca": "Boston Terrier",
+    "porte": "Pequeno",
+    "origem": "EUA",
+    "personalidade": "amigável, inteligente e vivaz"
+  },
+  {
+    "_id": 7,
+    "raca": "Boxer",
+    "porte": "Médio",
+    "origem": "Alemanha",
+    "personalidade": "leal, afetuoso e brincalhão"
+  },
+  {
+    "_id": 8,
+    "raca": "Buldogue Francês",
+    "porte": "Pequeno",
+    "origem": "França",
+    "personalidade": "carinhoso, leal e brincalhão"
+  },
+  {
+    "_id": 9,
+    "raca": "Buldogue Inglês",
+    "porte": "Médio",
+    "origem": "Grã-Bretanha",
+    "personalidade": "calmo, divertido e dócil"
+  },
+  {
+    "_id": 10,
+    "raca": "Bull Terrier",
+    "porte": "Pequeno",
+    "origem": "Grã-Bretanha",
+    "personalidade": "travesso, brincalhão e leal"
+  },
+  {
+    "_id": 11,
+    "raca": "Bull Terrier",
+    "porte": "Médio",
+    "origem": "Grã-Bretanha",
+    "personalidade": "travesso, brincalhão e leal"
+  },
+  {
+    "_id": 12,
+    "raca": "Cavalier King Charles Spaniel",
+    "porte": "Pequeno",
+    "origem": "Grã-Bretanha",
+    "personalidade": "companheiro, alegre e afetuoso"
+  },
+  {
+    "_id": 13,
+    "raca": "Chihuahua",
+    "porte": "Pequeno",
+    "origem": "México",
+    "personalidade": "charmoso, animado e atrevido"
+  },
+  {
+    "_id": 14,
+    "raca": "Chow Chow",
+    "porte": "Médio",
+    "origem": "China",
+    "personalidade": "calmo, leal e orgulhoso"
+  },
+  {
+    "_id": 15,
+    "raca": "Cocker Spaniel Inglês",
+    "porte": "Médio",
+    "origem": "Grã-Bretanha",
+    "personalidade": "alegre, carinhoso e cheio de vida"
+  },
+  {
+    "_id": 16,
+    "raca": "Dachshund (Salsichinha)",
+    "porte": "Pequeno",
+    "origem": "Alemanha",
+    "personalidade": "corajoso, animado e inteligente"
+  },
+  {
+    "_id": 17,
+    "raca": "Dálmata",
+    "porte": "Médio",
+    "origem": "Croácia",
+    "personalidade": "atlético, protetor e amável"
+  },
+  {
+    "_id": 18,
+    "raca": "Dobermann",
+    "porte": "Médio",
+    "origem": "Alemanha",
+    "personalidade": "inteligente, leal e protetor"
+  },
+  {
+    "_id": 19,
+    "raca": "Dobermann",
+    "porte": "Grande",
+    "origem": "Alemanha",
+    "personalidade": "inteligente, leal e protetor"
+  },
+  {
+    "_id": 20,
+    "raca": "Dogue Alemão",
+    "porte": "Grande",
+    "origem": "Alemanha",
+    "personalidade": "amigável, paciente e dócil"
+  },
+  {
+    "_id": 21,
+    "raca": "Fila Brasileiro",
+    "porte": "Grande",
+    "origem": "Brasil",
+    "personalidade": "companheiro, corajoso e amoroso"
+  },
+  {
+    "_id": 22,
+    "raca": "Golden Retriever",
+    "porte": "Grande",
+    "origem": "Grã-Bretanha",
+    "personalidade": "inteligente, brincalhão e leal"
+  },
+  {
+    "_id": 23,
+    "raca": "Husky Siberiano",
+    "porte": "Médio",
+    "origem": "EUA",
+    "personalidade": "amigável, trabalhador e extrovertido"
+  },
+  {
+    "_id": 24,
+    "raca": "Jack Russell Terrier",
+    "porte": "Pequeno",
+    "origem": "Grã-Bretanha",
+    "personalidade": "amigável, atlético e alerta"
+  },
+  {
+    "_id": 25,
+    "raca": "Labrador Retriever",
+    "porte": "Grande",
+    "origem": "Grã-Bretanha",
+    "personalidade": "inteligente, carinhoso e brincalhão"
+  },
+  {
+    "_id": 26,
+    "raca": "Lhasa Apso",
+    "porte": "Pequeno",
+    "origem": "Tiebete",
+    "personalidade": "esperto, confiante e independente"
+  },
+  {
+    "_id": 27,
+    "raca": "Spitz Alemão (Lulu da Pomerânia)",
+    "porte": "Pequeno",
+    "origem": "Alemanha",
+    "personalidade": "animado, inteligente e cheio de personalidade"
+  },
+  {
+    "_id": 28,
+    "raca": "Maltês",
+    "porte": "Pequeno",
+    "origem": "Itália",
+    "personalidade": "gentil, brincalhão e afetuoso"
+  },
+  {
+    "_id": 29,
+    "raca": "Mastiff Inglês",
+    "porte": "Grande",
+    "origem": "Grã-Bretanha",
+    "personalidade": "calmo, amável e leal"
+  },
+  {
+    "_id": 30,
+    "raca": "Mastim Tibetano",
+    "porte": "Grande",
+    "origem": "Tiebete",
+    "personalidade": "independente, reservado e inteligente"
+  },
+  {
+    "_id": 31,
+    "raca": "Pastor Alemão",
+    "porte": "Grande",
+    "origem": "Alemanha",
+    "personalidade": "confiante, corajoso e inteligente"
+  },
+  {
+    "_id": 32,
+    "raca": "Pastor Australiano",
+    "porte": "Médio",
+    "origem": "Austrália",
+    "personalidade": "esperto, trabalhador e exuberante"
+  },
+  {
+    "_id": 33,
+    "raca": "Pastor de Shetland",
+    "porte": "Médio",
+    "origem": "Escócia",
+    "personalidade": "brincalhão, energético e esperto"
+  },
+  {
+    "_id": 34,
+    "raca": "Pequinês",
+    "porte": "Pequeno",
+    "origem": "China",
+    "personalidade": "afetuoso, leal e elegante"
+  },
+  {
+    "_id": 35,
+    "raca": "Pinscher",
+    "porte": "Pequeno",
+    "origem": "Alemanha",
+    "personalidade": "brincalhão, carinhoso e protetor"
+  },
+  {
+    "_id": 36,
+    "raca": "Pit Bull",
+    "porte": "Médio",
+    "origem": "EUA",
+    "personalidade": "inteligente, forte e leal"
+  },
+  {
+    "_id": 37,
+    "raca": "Poodle",
+    "porte": "Pequeno",
+    "origem": "França",
+    "personalidade": "orgulhoso, ativo e inteligente"
+  },
+  {
+    "_id": 38,
+    "raca": "Poodle",
+    "porte": "Médio",
+    "origem": "França",
+    "personalidade": "orgulhoso, ativo e inteligente"
+  },
+  {
+    "_id": 39,
+    "raca": "Poodle",
+    "porte": "Grande",
+    "origem": "França",
+    "personalidade": "orgulhoso, ativo e inteligente"
+  },
+  {
+    "_id": 40,
+    "raca": "Pug",
+    "porte": "Pequeno",
+    "origem": "China",
+    "personalidade": "amoroso, temperamental e companheiro"
+  },
+  {
+    "_id": 41,
+    "raca": "Rottweiler",
+    "porte": "Grande",
+    "origem": "Alemanha",
+    "personalidade": "protetor, leal e inteligente"
+  },
+  {
+    "_id": 42,
+    "raca": "Schnauzer",
+    "porte": "Pequeno",
+    "origem": "Alemanha",
+    "personalidade": "dócil, leal e companheiro"
+  },
+  {
+    "_id": 43,
+    "raca": "Schnauzer",
+    "porte": "Médio",
+    "origem": "Alemanha",
+    "personalidade": "dócil, leal e companheiro"
+  },
+  {
+    "_id": 44,
+    "raca": "Shar-Pei",
+    "porte": "Médio",
+    "origem": "China",
+    "personalidade": "amoroso, companheiro e brincalhão"
+  },
+  {
+    "_id": 45,
+    "raca": "Shiba",
+    "porte": "Pequeno",
+    "origem": "Japão",
+    "personalidade": "independente, leal e alerta"
+  },
+  {
+    "_id": 46,
+    "raca": "Shih Tzu",
+    "porte": "Pequeno",
+    "origem": "Tiebete",
+    "personalidade": "carinhoso, brincalhão e encantador"
+  },
+  {
+    "_id": 47,
+    "raca": "Weimaraner",
+    "porte": "Médio",
+    "origem": "Alemanha",
+    "personalidade": "amigável, corajoso e independente"
+  },
+  {
+    "_id": 48,
+    "raca": "Weimaraner",
+    "porte": "Grande",
+    "origem": "Alemanha",
+    "personalidade": "amigável, corajoso e independente"
+  },
+  {
+    "_id": 49,
+    "raca": "Yorkshire",
+    "porte": "Pequeno",
+    "origem": "Grã-Bretanha",
+    "personalidade": "destemido, carinhoso e cheio de energia"
+  },
+  {
+    "_id": 50,
+    "raca": "Vira-lata (SRD)",
+    "porte": "Pequeno",
+    "origem": "/ a partir da Miscigenação",
+    "personalidade": "carinhoso, brincalhão e encantador"
+  },
+  {
+    "_id": 51,
+    "raca": "Vira-lata (SRD)",
+    "porte": "Médio",
+    "origem": "/ a partir da Miscigenação",
+    "personalidade": "carinhoso, brincalhão e encantador"
+  },
+  {
+    "_id": 52,
+    "raca": "Vira-lata (SRD)",
+    "porte": "Grande",
+    "origem": "/ a partir da Miscigenação",
+    "personalidade": "carinhoso, brincalhão e encantador"
+  }
+]
