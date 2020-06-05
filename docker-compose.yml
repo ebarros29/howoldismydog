@@ -13,14 +13,37 @@ services:
         links:
             - mongo
         volumes:
-            - ./mongo-seed:/mongo-seed
+            - ./services/mongo-seed:/mongo-seed
         command:
             /mongo-seed/import.sh
 
     web-app:
-        build: .
+        build: ./services/web-app/
         command: gunicorn --bind 0.0.0.0:5000 wsgi:application
-        ports:
-            - 5001:5000
+        volumes:
+            - static-volume:/usr/src/app/static
         depends_on:
             - mongo
+#        ports:
+#            - 5001:5000
+
+    nginx:
+        image: nginx
+        ports:
+            - 80:80
+        volumes:
+            - ./services/nginx/conf.d:/etc/nginx/conf.d
+            - static-volume:/usr/src/app/static
+        depends_on:
+            - web-app
+#        networks:
+#            - nginx_network
+
+volumes:
+    static-volume:
+    
+              
+#networks:
+#    
+#    nginx_network:
+#        driver: bridge
