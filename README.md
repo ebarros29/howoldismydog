@@ -6,7 +6,9 @@ Application developed in order to discover how old is your dog compared with a h
 
 Language: Python
 
-Frameworks: Flask, Pymongo
+Frameworks: Flask, Pymongo, Gunicorn
+
+Web Server: NGINX
 
 DB: MongoDB
 
