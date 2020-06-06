@@ -67,7 +67,7 @@ Simple tests to make sure that is everthing fine.
 
 ### Break down into end to end tests
 
-Checking if all containers are running. You should see only 2 containers up, the first one refers to mongo (MongoDB) and the second one to web-app (Python). 
+Checking if all containers are running. You should see 3 containers up, the first one refers to mongo (MongoDB), the second one to web-app (Python) and the third one to nginx (NGINX). 
 
 Remark: Mongo_seed runs only to add data files to MongoDB, afther that this goes down. Use below command in order to check containers status:
 
