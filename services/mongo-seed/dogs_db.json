@@ -1,0 +1,373 @@
+[
+  {
+    "raca": "Akita",
+    "porte": "grande",
+    "origem": "Japão",
+    "personalidade": "leal, amigo e brincalhão",
+    "api_uri": "https://dog.ceo/api/breed/akita/images/random"
+  },
+  {
+    "raca": "Basset Hound",
+    "porte": "medio",
+    "origem": "Alemanha",
+    "personalidade": "paciente, teimoso e charmoso",
+    "api_uri": "https://dog.ceo/api/breed/hound/basset/images/random"
+  },
+  {
+    "raca": "Beagle",
+    "porte": "pequeno",
+    "origem": "Grã-Bretanha",
+    "personalidade": "alegre, companheiro e aventureiro",
+    "api_uri": "https://dog.ceo/api/breed/beagle/images/random"
+  },
+  {
+    "raca": "Beagle",
+    "porte": "medio",
+    "origem": "Grã-Bretanha",
+    "personalidade": "alegre, companheiro e aventureiro",
+    "api_uri": "https://dog.ceo/api/breed/beagle/images/random"
+  },
+  {
+    "raca": "Bichon Frisé",
+    "porte": "pequeno",
+    "origem": "França",
+    "personalidade": "brincalhão, curioso e afetivo",
+    "api_uri": "https://dog.ceo/api/breed/frise/images/random"
+  },
+  {
+    "raca": "Border Collie",
+    "porte": "medio",
+    "origem": "Grã-Bretanha",
+    "personalidade": "inteligente, leal e cheio de energia",
+    "api_uri": "https://dog.ceo/api/breed/collie/images/random"
+  },
+  {
+    "raca": "Boston Terrier",
+    "porte": "pequeno",
+    "origem": "EUA",
+    "personalidade": "amigável, inteligente e vivaz",
+    "api_uri": "https://dog.ceo/api/breed/bulldog/boston/images/random"
+  },
+  {
+    "raca": "Boxer",
+    "porte": "medio",
+    "origem": "Alemanha",
+    "personalidade": "leal, afetuoso e brincalhão",
+    "api_uri": "https://dog.ceo/api/breed/boxer/images/random"
+  },
+  {
+    "raca": "Buldogue Francês",
+    "porte": "pequeno",
+    "origem": "França",
+    "personalidade": "carinhoso, leal e brincalhão",
+    "api_uri": "https://dog.ceo/api/breed/bulldog/french/images/random"
+  },
+  {
+    "raca": "Buldogue Inglês",
+    "porte": "medio",
+    "origem": "Grã-Bretanha",
+    "personalidade": "calmo, divertido e dócil",
+    "api_uri": "https://dog.ceo/api/breed/bulldog/english/images/random"
+  },
+  {
+    "raca": "Bull Terrier",
+    "porte": "pequeno",
+    "origem": "Grã-Bretanha",
+    "personalidade": "travesso, brincalhão e leal",
+    "api_uri": "https://dog.ceo/api/breed/bullterrier/images/random"
+  },
+  {
+    "raca": "Bull Terrier",
+    "porte": "medio",
+    "origem": "Grã-Bretanha",
+    "personalidade": "travesso, brincalhão e leal",
+    "api_uri": "https://dog.ceo/api/breed/bullterrier/images/random"
+  },
+  {
+    "raca": "Cavalier King Charles Spaniel",
+    "porte": "pequeno",
+    "origem": "Grã-Bretanha",
+    "personalidade": "companheiro, alegre e afetuoso",
+    "api_uri": "https://meusanimais.com.br/wp-content/uploads/2019/10/cavalier-king-charles-spaniel-caracteristicas.jpg"
+  },
+  {
+    "raca": "Chihuahua",
+    "porte": "pequeno",
+    "origem": "México",
+    "personalidade": "charmoso, animado e atrevido",
+    "api_uri": "https://dog.ceo/api/breed/chihuahua/images/random"
+  },
+  {
+    "raca": "Chow Chow",
+    "porte": "medio",
+    "origem": "China",
+    "personalidade": "calmo, leal e orgulhoso",
+    "api_uri": "https://dog.ceo/api/breed/chow/images/random"
+  },
+  {
+    "raca": "Cocker Spaniel Inglês",
+    "porte": "medio",
+    "origem": "Grã-Bretanha",
+    "personalidade": "alegre, carinhoso e cheio de vida",
+    "api_uri": "https://dog.ceo/api/breed/spaniel/cocker/images/random"
+  },
+  {
+    "raca": "Dachshund (Salsichinha)",
+    "porte": "pequeno",
+    "origem": "Alemanha",
+    "personalidade": "corajoso, animado e inteligente",
+    "api_uri": "https://dog.ceo/api/breed/dachshund/images/random"
+  },
+  {
+    "raca": "Dálmata",
+    "porte": "medio",
+    "origem": "Croácia",
+    "personalidade": "atlético, protetor e amável",
+    "api_uri": "https://dog.ceo/api/breed/dalmatian/images/random"
+  },
+  {
+    "raca": "Dobermann",
+    "porte": "medio",
+    "origem": "Alemanha",
+    "personalidade": "inteligente, leal e protetor",
+    "api_uri": "https://dog.ceo/api/breed/doberman/images/random"
+  },
+  {
+    "raca": "Dobermann",
+    "porte": "grande",
+    "origem": "Alemanha",
+    "personalidade": "inteligente, leal e protetor",
+    "api_uri": "https://dog.ceo/api/breed/doberman/images/random"
+  },
+  {
+    "raca": "Dogue Alemão",
+    "porte": "grande",
+    "origem": "Alemanha",
+    "personalidade": "amigável, paciente e dócil",
+    "api_uri": "https://dog.ceo/api/breed/dane/images/random"
+  },
+  {
+    "raca": "Fila Brasileiro",
+    "porte": "grande",
+    "origem": "Brasil",
+    "personalidade": "companheiro, corajoso e amoroso",
+    "api_uri": "https://vetsmart-parsefiles.s3.amazonaws.com/e05c07e84376e68587b1b5e8d2b48b6a_breed.jpg"
+  },
+  {
+    "raca": "Golden Retriever",
+    "porte": "grande",
+    "origem": "Grã-Bretanha",
+    "personalidade": "inteligente, brincalhão e leal",
+    "api_uri": "https://dog.ceo/api/breed/retriever/golden/images/random"
+  },
+  {
+    "raca": "Husky Siberiano",
+    "porte": "medio",
+    "origem": "EUA",
+    "personalidade": "amigável, trabalhador e extrovertido",
+    "api_uri": "https://dog.ceo/api/breed/husky/images/random"
+  },
+  {
+    "raca": "Jack Russell Terrier",
+    "porte": "pequeno",
+    "origem": "Grã-Bretanha",
+    "personalidade": "amigável, atlético e alerta",
+    "api_uri": "https://dog.ceo/api/breed/terrier/russell/images/random"
+  },
+  {
+    "raca": "Labrador Retriever",
+    "porte": "grande",
+    "origem": "Grã-Bretanha",
+    "personalidade": "inteligente, carinhoso e brincalhão",
+    "api_uri": "https://dog.ceo/api/breed/labrador/images/random"
+  },
+  {
+    "raca": "Lhasa Apso",
+    "porte": "pequeno",
+    "origem": "Tiebete",
+    "personalidade": "esperto, confiante e independente",
+    "api_uri": "https://dog.ceo/api/breed/lhasa/images/random"
+  },
+  {
+    "raca": "Spitz Alemão (Lulu da Pomerânia)",
+    "porte": "pequeno",
+    "origem": "Alemanha",
+    "personalidade": "animado, inteligente e cheio de personalidade",
+    "api_uri": "https://dog.ceo/api/breed/pomeranian/images/random"
+  },
+  {
+    "raca": "Maltês",
+    "porte": "pequeno",
+    "origem": "Itália",
+    "personalidade": "gentil, brincalhão e afetuoso",
+    "api_uri": "https://dog.ceo/api/breed/maltese/images/random"
+  },
+  {
+    "raca": "Mastiff Inglês",
+    "porte": "grande",
+    "origem": "Grã-Bretanha",
+    "personalidade": "calmo, amável e leal",
+    "api_uri": "https://dog.ceo/api/breed/mastiff/english/images/random"
+  },
+  {
+    "raca": "Mastim Tibetano",
+    "porte": "grande",
+    "origem": "Tiebete",
+    "personalidade": "independente, reservado e inteligente",
+    "api_uri": "https://dog.ceo/api/breed/mastiff/tibetan/images/random"
+  },
+  {
+    "raca": "Pastor Alemão",
+    "porte": "grande",
+    "origem": "Alemanha",
+    "personalidade": "confiante, corajoso e inteligente",
+    "api_uri": "https://dog.ceo/api/breed/germanshepherd/images/random"
+  },
+  {
+    "raca": "Pastor Australiano",
+    "porte": "medio",
+    "origem": "Austrália",
+    "personalidade": "esperto, trabalhador e exuberante",
+    "api_uri": "https://dog.ceo/api/breed/australian/shepherd/images/random"
+  },
+  {
+    "raca": "Pastor de Shetland",
+    "porte": "medio",
+    "origem": "Escócia",
+    "personalidade": "brincalhão, energético e esperto",
+    "api_uri": "https://dog.ceo/api/breed/sheepdog/shetland/images/random"
+  },
+  {
+    "raca": "Pequinês",
+    "porte": "pequeno",
+    "origem": "China",
+    "personalidade": "afetuoso, leal e elegante",
+    "api_uri": "https://dog.ceo/api/breed/pekinese/images/random"
+  },
+  {
+    "raca": "Pinscher",
+    "porte": "pequeno",
+    "origem": "Alemanha",
+    "personalidade": "brincalhão, carinhoso e protetor",
+    "api_uri": "https://dog.ceo/api/breed/pinscher/images/random"
+  },
+  {
+    "raca": "Pit Bull",
+    "porte": "medio",
+    "origem": "EUA",
+    "personalidade": "inteligente, forte e leal",
+    "api_uri": "https://dog.ceo/api/breed/pitbull/images/random"
+  },
+  {
+    "raca": "Poodle",
+    "porte": "pequeno",
+    "origem": "França",
+    "personalidade": "orgulhoso, ativo e inteligente",
+    "api_uri": "https://dog.ceo/api/breed/poodle/toy/images/random"
+  },
+  {
+    "raca": "Poodle",
+    "porte": "medio",
+    "origem": "França",
+    "personalidade": "orgulhoso, ativo e inteligente",
+    "api_uri": "https://dog.ceo/api/breed/poodle/miniature/images/random"
+  },
+  {
+    "raca": "Poodle",
+    "porte": "grande",
+    "origem": "França",
+    "personalidade": "orgulhoso, ativo e inteligente",
+    "api_uri": "https://dog.ceo/api/breed/poodle/standard/images/random"
+  },
+  {
+    "raca": "Pug",
+    "porte": "pequeno",
+    "origem": "China",
+    "personalidade": "amoroso, temperamental e companheiro",
+    "api_uri": "https://dog.ceo/api/breed/pug/images/random"
+  },
+  {
+    "raca": "Rottweiler",
+    "porte": "grande",
+    "origem": "Alemanha",
+    "personalidade": "protetor, leal e inteligente",
+    "api_uri": "https://dog.ceo/api/breed/rottweiler/images/random"
+  },
+  {
+    "raca": "Schnauzer",
+    "porte": "pequeno",
+    "origem": "Alemanha",
+    "personalidade": "dócil, leal e companheiro",
+    "api_uri": "https://dog.ceo/api/breed/schnauzer/miniature/images/random"
+  },
+  {
+    "raca": "Schnauzer",
+    "porte": "medio",
+    "origem": "Alemanha",
+    "personalidade": "dócil, leal e companheiro",
+    "api_uri": "https://dog.ceo/api/breed/schnauzer/giant/images/random"
+  },
+  {
+    "raca": "Shar-Pei",
+    "porte": "medio",
+    "origem": "China",
+    "personalidade": "amoroso, companheiro e brincalhão",
+    "api_uri": "https://i0.statig.com.br/bancodeimagens/91/qq/4o/91qq4ovhgih2zv6u6hiden0ai.jpg"
+  },
+  {
+    "raca": "Shiba",
+    "porte": "pequeno",
+    "origem": "Japão",
+    "personalidade": "independente, leal e alerta",
+    "api_uri": "https://dog.ceo/api/breed/shiba/images/random"
+  },
+  {
+    "raca": "Shih Tzu",
+    "porte": "pequeno",
+    "origem": "Tiebete",
+    "personalidade": "carinhoso, brincalhão e encantador",
+    "api_uri": "https://dog.ceo/api/breed/shihtzu/images/random"
+  },
+  {
+    "raca": "Weimaraner",
+    "porte": "medio",
+    "origem": "Alemanha",
+    "personalidade": "amigável, corajoso e independente",
+    "api_uri": "https://dog.ceo/api/breed/weimaraner/images/random"
+  },
+  {
+    "raca": "Weimaraner",
+    "porte": "grande",
+    "origem": "Alemanha",
+    "personalidade": "amigável, corajoso e independente",
+    "api_uri": "https://dog.ceo/api/breed/weimaraner/images/random"
+  },
+  {
+    "raca": "Yorkshire",
+    "porte": "pequeno",
+    "origem": "Grã-Bretanha",
+    "personalidade": "destemido, carinhoso e cheio de energia",
+    "api_uri": "https://dog.ceo/api/breed/terrier/yorkshire/images/random"
+  },
+  {
+    "raca": "SRD",
+    "porte": "pequeno",
+    "origem": "/ a partir da Miscigenação",
+    "personalidade": "carinhoso, brincalhão e encantador",
+    "api_uri": "https://dog.ceo/api/breed/mix/images/random"
+  },
+  {
+    "raca": "SRD",
+    "porte": "medio",
+    "origem": "/ a partir da Miscigenação",
+    "personalidade": "carinhoso, brincalhão e encantador",
+    "api_uri": "https://dog.ceo/api/breed/mix/images/random"
+  },
+  {
+    "raca": "SRD",
+    "porte": "grande",
+    "origem": "/ a partir da Miscigenação",
+    "personalidade": "carinhoso, brincalhão e encantador",
+    "api_uri": "https://dog.ceo/api/breed/mix/images/random"
+  }
+]
