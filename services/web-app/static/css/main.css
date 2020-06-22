@@ -171,6 +171,7 @@ iframe {
 [  ]*/
 .contact1-pic {
   width: 296px;
+  filter: drop-shadow(10px 10px 4px #878787);
 }
 
 .contact1-pic img {
@@ -350,11 +351,23 @@ textarea.input1 + .shadow-input1 {
 
 @media (max-width: 768px) {
   .container-contact1 {
-    padding: 90px 80px 88px 80px;
+    padding: 25px 80px 24px 80px;
+    /*padding: 90px 80px 88px 80px;*/
+  }
+
+  .contact1-form-title {
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    font-size: 18px;
   }
 
   .contact1-pic {
-    display: none;
+    width: 50%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    /*display: none;*/
   }
 
   .contact1-form {
@@ -364,7 +377,8 @@ textarea.input1 + .shadow-input1 {
 
 @media (max-width: 576px) {
   .container-contact1 {
-    padding: 90px 15px 88px 15px;
+    padding: 25px 15px 24px 15px;
+    /*padding: 90px 15px 88px 15px;*/
   }
 }
 
