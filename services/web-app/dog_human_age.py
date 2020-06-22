@@ -1,6 +1,5 @@
-import json
+import json, re, requests
 from pymongo import MongoClient
-import re
 
 # Connect pymongo to MongoDB
 client = MongoClient('mongo', 27017)
@@ -8,7 +7,7 @@ db = client['dogs_db']
 coll_raca = db['racas']
 
 def get_human_age(dog_breed, dog_age, dog_size):
-    x=[]
+
     id_c = int(dog_age)
 
     human_age = [0, 15, 24, 28, 32, 36, 
@@ -18,36 +17,52 @@ def get_human_age(dog_breed, dog_age, dog_size):
                 [64, 69, 77], [68, 74, 82],
                 [72, 78, 88], [76, 83 ,93],
                 [80, 87, 120]]
+    
+    regexP = re.compile('(P|p)equeno')
+    regexM = re.compile('(M|m)(e|é)dio')
+    regexG = re.compile('(G|g)rande')
+    
+    if regexP.match(dog_size):
+        dog_size = 'pequeno' 
+    if regexM.match(dog_size):
+        dog_size = 'medio'
+    if regexG.match(dog_size):
+        dog_size = 'grande'
+    
+    #finding dog breed and size
+    mydict=coll_raca.find_one({'$text': {'$search': '"%s" "%s"' % (dog_breed, dog_size)}})
+    
+    print(mydict)
 
-    mydict=coll_raca.find({'$text': {'$search': "\"%s\"" % (dog_breed)}})
+    #mydict['api_uri'] = 'https://love.doghero.com.br/wp-content/uploads/2017/02/shutterstock_166365449-1024x683.jpg'
+    try:    
+        res = requests.get(mydict['api_uri']).json()
+        dog_img_url = res['message']
+        print(dog_img_url)
+    except:
+        dog_img_url = mydict['api_uri']
 
-    for x in mydict:
-        print(x)
+    if mydict != None:
+        if dog_size == "":
+            dog_size = mydict['porte']
+        else:
+            dog_size = dog_size
 
-    if len(x) == 0:
+        if id_c <= 5:
+            return mydict['raca'], human_age[id_c], mydict['origem'], mydict['personalidade'], dog_img_url
+
+        elif 5 < id_c <= 16:
+
+            if dog_size == "pequeno":
+                return mydict['raca'], human_age[id_c][0], mydict['origem'], mydict['personalidade'], dog_img_url
+            elif dog_size == "medio":
+                return mydict['raca'], human_age[id_c][1], mydict['origem'], mydict['personalidade'], dog_img_url
+            elif dog_size == "grande":
+                return mydict['raca'], human_age[id_c][2], mydict['origem'], mydict['personalidade'], dog_img_url
+        else:
+            return "error"
+    else:
         return "error"
 
-    if dog_size == "":
-        dog_size = x['porte']
-    else:
-        dog_size = dog_size
-
-    if id_c <= 5:
-        return x['raca'], human_age[id_c], x['origem'], x['personalidade']
-
-    elif 5 < id_c <= 16:
-        regexP = re.compile('(P|p)equeno')
-        regexM = re.compile('(M|m)(e|é)dio')
-        regexG = re.compile('(G|g)rande')
-        if regexP.match(dog_size):
-            return x['raca'], human_age[id_c][0], x['origem'], x['personalidade']
-        elif regexM.match(dog_size):
-            return x['raca'], human_age[id_c][1], x['origem'], x['personalidade']
-        elif regexG.match(dog_size):
-            return x['raca'], human_age[id_c][2], x['origem'], x['personalidade']
-    else:
-        return "Error"
-
-#response = get_human_age("aki", 5, "")
-
+#response = get_human_age('poodle', 4, 'pequeno')
 #print(response)
