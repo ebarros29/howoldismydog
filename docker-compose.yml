@@ -24,8 +24,6 @@ services:
             - static-volume:/usr/src/app/static
         depends_on:
             - mongo
-#        ports:
-#            - 5001:5000
 
     nginx:
         image: nginx
@@ -36,14 +34,6 @@ services:
             - static-volume:/usr/src/app/static
         depends_on:
             - web-app
-#        networks:
-#            - nginx_network
 
 volumes:
     static-volume:
-    
-              
-#networks:
-#    
-#    nginx_network:
-#        driver: bridge
