@@ -1,6 +1,6 @@
 # How old is my dog?
 
-Application developed in order to discover how old is your dog compared with a human age, as well other curiosities.
+Application developed in order to discover how old is your dog compared with human age, as well other curiosities.
 
 [Back-end]
 
