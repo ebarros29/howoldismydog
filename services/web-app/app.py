@@ -12,8 +12,6 @@ def index():
 
 @app.route('/calc_hoimd', methods = ['GET'])
 def hoimd():
-    #if request.method == 'GET':
-    # Then get the data from the form
     d_breed = request.args.get('dog_breed')
     d_age = request.args.get('dog_age')
     d_size = request.args.get('dog_size')
@@ -28,11 +26,6 @@ def hoimd():
         return render_template('calc_hoimd.html', response=response)
     else:
         return render_template('bnf.html')
-
-    # Otherwise this was a normal GET request
-#    else:   
-#        return render_template('index.html')
     
 if __name__ == "__main__":
     app.run(host="0.0.0.0", debug=True)
-    app.run(debug=True)
