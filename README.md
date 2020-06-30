@@ -19,7 +19,7 @@ HTML5 + CSS + JavasScript
 
 Enjoy it!
 
-http://hoimd.hopto.org/
+https://hoimd.hopto.org/
 
 
 ## Getting Started
