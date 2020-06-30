@@ -32,17 +32,14 @@ def get_human_age(dog_breed, dog_age, dog_size):
     #finding dog breed and size
     mydict=coll_raca.find_one({'$text': {'$search': '"%s" "%s"' % (dog_breed, dog_size)}})
     
-    print(mydict)
-
-    #mydict['api_uri'] = 'https://love.doghero.com.br/wp-content/uploads/2017/02/shutterstock_166365449-1024x683.jpg'
-    try:    
-        res = requests.get(mydict['api_uri']).json()
-        dog_img_url = res['message']
-        print(dog_img_url)
-    except:
-        dog_img_url = mydict['api_uri']
+    #print(mydict)
 
     if mydict != None:
+        try:    
+            res = requests.get(mydict['api_uri']).json()
+            dog_img_url = res['message']
+        except:
+            dog_img_url = mydict['api_uri']
         if dog_size == "":
             dog_size = mydict['porte']
         else:
