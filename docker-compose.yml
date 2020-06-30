@@ -28,6 +28,7 @@ services:
     nginx:
         image: nginx
         ports:
+            - 443:443
             - 80:80
         volumes:
             - ./services/nginx/conf.d:/etc/nginx/conf.d
